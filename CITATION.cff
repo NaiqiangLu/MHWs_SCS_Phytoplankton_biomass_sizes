@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+
+title: MATLAB Codes for Marine Heatwaves Cause Severe Reductions in Phytoplankton Biomass and Promote Community Size Miniaturization in the South China Sea Upwelling Systems
+
+message: If you use this repository, please cite our paper.
+
+authors:
+  - family-names: Lu
+    given-names: Naiqiang
+
+repository-code: https://github.com/NaiqiangLu/SCS-MHW-Phytoplankton
+
+license: MIT
