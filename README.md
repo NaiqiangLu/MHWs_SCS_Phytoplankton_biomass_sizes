@@ -1,6 +1,8 @@
-# MATLAB Codes for
+# MHWs_SCS_Phytoplankton_biomass_sizes
 
-## Marine Heatwaves Cause Severe Reductions in Phytoplankton Biomass and Promote Community Size Miniaturization in the South China Sea Upwelling Systems
+## MATLAB Codes for
+
+### Marine Heatwaves Cause Severe Reductions in Phytoplankton Biomass and Promote Community Size Miniaturization in the South China Sea Upwelling Systems
 
 ---
 
@@ -10,9 +12,9 @@ This repository contains the MATLAB codes used in the study:
 
 > **Marine Heatwaves Cause Severe Reductions in Phytoplankton Biomass and Promote Community Size Miniaturization in the South China Sea Upwelling Systems**
 
-The repository is intended to ensure the reproducibility of all analyses and figures presented in the manuscript submitted to **Journal of Geophysical Research: Oceans (JGR Oceans)**.
+The repository is intended to ensure the reproducibility of all analyses and figures presented in the manuscript prepared for **Journal of Geophysical Research: Oceans (JGR Oceans)**.
 
-All source codes are freely available under the MIT License.
+All MATLAB source codes are freely available under the MIT License.
 
 ---
 
@@ -20,14 +22,14 @@ All source codes are freely available under the MIT License.
 
 The repository is organized into multiple branches according to different analytical modules.
 
-Each branch contains the complete MATLAB scripts corresponding to a specific part of the study.
+Each branch contains the complete MATLAB scripts corresponding to a specific component of the study.
 
 | Branch | Description |
 |---------|-------------|
 | **main** | Repository documentation, README, License, and Citation information |
 | **SCS_MHWs_1982-2024_MHW_metrics_analysis** | Detection of marine heatwaves (MHWs) and calculation of MHW metrics over the South China Sea (1982–2024) |
 | **SCS_Seasonal_MHWs_Wind_field_analysis** | Wind vector and wind speed analyses during seasonal marine heatwaves |
-| **SCS_Seasonal_MHWs_heat-flux_analyse** | Air–sea heat flux analyses, including Qnet, SSR, STR, SLHF and SSHF |
+| **SCS_Seasonal_MHWs_heat-flux_analyse** | Air–sea heat flux analyses, including Qnet, SSR, STR, SLHF, and SSHF |
 | **SCS_Seasonal_MHWs_GPCP-precipitation_analysis** | Precipitation anomaly analyses using GPCP precipitation data |
 | **SCS_Seasonal_MHWs_MLD_analyse** | Mixed layer depth (MLD) analyses during marine heatwaves |
 | **SCS_Seasonal_MHWs_MLI_analysis** | Mixed-layer irradiance (MLI) calculations and analyses |
@@ -47,13 +49,13 @@ To access a specific analytical module:
 2. Select the desired branch.
 3. Browse or download the MATLAB scripts associated with that module.
 
-Each branch contains the complete MATLAB codes required to reproduce the corresponding analyses in this study.
+Each branch contains the complete MATLAB codes required to reproduce the corresponding analyses presented in this study.
 
 ---
 
 # Software Requirements
 
-The codes were developed and tested using
+The codes were developed and tested using:
 
 - MATLAB R2024b
 
@@ -66,22 +68,22 @@ Some scripts may require the following MATLAB Toolboxes:
 
 # Data Availability
 
-The repository contains MATLAB source codes only.
+This repository contains MATLAB source codes only.
 
-Original datasets are **not redistributed** because they are publicly available from their respective providers.
+The original datasets are **not redistributed** because they are publicly available from their respective providers.
 
 The analyses use publicly available datasets including:
 
-- NOAA OISST
-- NOAA CPC RONI
-- CMEMS
+- NOAA Optimum Interpolation Sea Surface Temperature (OISST)
+- NOAA CPC Relative Oceanic Niño Index (RONI)
+- Copernicus Marine Environment Monitoring Service (CMEMS)
 - GlobColour
-- RSS
+- Remote Sensing Systems (RSS)
 - ECMWF ERA5
 - CCMP Wind Analysis
 - GPCP Precipitation
 
-Please download these datasets directly from the corresponding official data providers.
+Please download these datasets directly from their official data providers.
 
 ---
 
@@ -89,7 +91,7 @@ Please download these datasets directly from the corresponding official data pro
 
 Each branch contains the complete MATLAB scripts used to perform the corresponding analyses presented in the manuscript.
 
-Running the scripts with the required input datasets will reproduce the results and figures reported in the paper.
+Running the scripts with the required input datasets will reproduce the results and figures reported in the study.
 
 ---
 
@@ -101,25 +103,20 @@ This project is distributed under the **MIT License**.
 
 # Citation
 
-If you use these MATLAB codes in your research, please cite:
+If you use these MATLAB codes in your research, please cite the associated publication.
 
-Lu, N., et al.
-
-Marine Heatwaves Cause Severe Reductions in Phytoplankton Biomass and Promote Community Size Miniaturization in the South China Sea Upwelling Systems.
-
-Journal of Geophysical Research: Oceans.
-
-(Full citation and DOI will be added after publication.)
+The complete citation and DOI will be added after publication.
 
 ---
 
 # Contact
 
-Naiqiang Lu
+**Naiqiang Lu**
 
-College of Fisheries, Guangdong Ocean University, Zhanjiang, China 
+College of Fisheries, Guangdong Ocean University, Zhanjiang, China
+
 Guangdong Provincial Engineering and Technology Research Center of Far Sea Fisheries Management and Fishing of South China Sea, Zhanjiang, China
 
-Email: lnq13202606740@163.com
+Email: **lnq13202606740@163.com**
 
-For questions regarding the codes, please open an Issue on GitHub or contact the corresponding author.
+For questions, bug reports, or suggestions, please open an Issue on GitHub or contact the corresponding author by email.
